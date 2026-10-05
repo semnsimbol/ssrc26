@@ -1,0 +1,1 @@
+const header=document.querySelector('.nav');const button=document.querySelector('.menu');const nav=document.querySelector('nav');button?.addEventListener('click',()=>{header.classList.toggle('menu-open');button.classList.toggle('open');});nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{header.classList.remove('menu-open');button.classList.remove('open')}));
